@@ -16,8 +16,12 @@
 	
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-        "ms-python.python"
+        "ms-python.python",
+		"eamodio.gitlens"
     ],
+
+	"containerEnv": {
+	},
 
     // "postCreateCommand": "pip3 install -r requirements.txt",
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
